@@ -1,5 +1,3 @@
-
-
 #include <FS.h>
 #include <SPI.h>
 #include <Wire.h>
@@ -330,7 +328,6 @@ void handleSettingWifiUpdate() {
   
   if (!configFile) {
     return;
-
   }
 
   serializeJson(doc, configFile);
